@@ -26,8 +26,10 @@
       <file leaf-file-name="MUSiCC_1.0.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MUSiCC_1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="64" selection-start="208" selection-end="208" vertical-scroll-proportion="0.054603856" vertical-offset="0" max-vertical-offset="6970">
-              <folding />
+            <state line="12" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.21841542" vertical-offset="0" max-vertical-offset="7140">
+              <folding>
+                <element signature="e#43#58#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,8 +163,10 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MUSiCC_1.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="64" selection-start="208" selection-end="208" vertical-scroll-proportion="0.054603856" vertical-offset="0" max-vertical-offset="6970">
-          <folding />
+        <state line="12" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.21841542" vertical-offset="0" max-vertical-offset="7140">
+          <folding>
+            <element signature="e#43#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
