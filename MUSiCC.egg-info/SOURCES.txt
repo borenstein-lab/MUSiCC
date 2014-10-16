@@ -1,5 +1,4 @@
 AUTHORS.rst
-CITE.rst
 HISTORY.rst
 MANIFEST.in
 MUSiCC.py

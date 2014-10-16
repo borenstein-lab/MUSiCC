@@ -109,3 +109,11 @@ The commands used are the following (via command line):
 `python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab`
 `python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab`
 
+==================
+Citing Information
+==================
+
+If you use the MUSiCC software, please cite the following paper:
+
+MUSiCC: Towards an accurate estimation of average genomic copy-numbers in the human microbiome.
+**Ohad Manor and Elhanan Borenstein.** *Submitted*

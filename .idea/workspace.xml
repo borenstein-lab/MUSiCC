@@ -43,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.rst" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.07105538" vertical-offset="0" max-vertical-offset="1989">
+            <state line="118" column="50" selection-start="5509" selection-end="5509" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="2108">
               <folding />
             </state>
           </provider>
@@ -55,16 +55,7 @@
       <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="4" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CITE.rst" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CITE.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="50" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+            <state line="31" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -88,10 +79,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MANIFEST.in" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MANIFEST.in" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MANIFEST.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+            <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.017763846" vertical-offset="0" max-vertical-offset="957">
               <folding />
             </state>
           </provider>
@@ -113,10 +104,10 @@
         <option value="$PROJECT_DIR$/AUTHORS.rst" />
         <option value="$PROJECT_DIR$/CITE.rst" />
         <option value="$PROJECT_DIR$/../setup.py" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/MUSiCC.py" />
         <option value="$PROJECT_DIR$/test_MUSiCC.py" />
         <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -351,6 +342,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.088541664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -361,7 +353,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -417,13 +408,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CITE.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="30" selection-start="3625" selection-end="3652" vertical-scroll-proportion="0.0" vertical-offset="667" max-vertical-offset="1598">
@@ -459,13 +443,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CITE.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="99" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
@@ -494,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HISTORY.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
@@ -511,20 +481,6 @@
     <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="99" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CITE.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="50" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
@@ -547,7 +503,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="64" selection-end="64" vertical-scroll-proportion="0.07105538" vertical-offset="0" max-vertical-offset="1989">
+        <state line="118" column="50" selection-start="5509" selection-end="5509" vertical-scroll-proportion="0.0" vertical-offset="1083" max-vertical-offset="2108">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="0" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.017763846" vertical-offset="0" max-vertical-offset="957">
           <folding />
         </state>
       </provider>
