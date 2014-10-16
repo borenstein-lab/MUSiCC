@@ -1,0 +1,15 @@
+AUTHORS.rst
+CITE.rst
+HISTORY.rst
+MUSiCC.py
+README.rst
+setup.cfg
+setup.py
+data/Correlog_clusters_genes_DATA_HMP_STOOL_CLASS_HMP_SAMP_134_KO_76.tab
+data/Final_Betas_ALL_SAMPLES_DATA_HMP_STOOL_CLASS_HMP_SAMP_134_KO_76.tab
+data/Gene_level_features_for_all_KOs_DATA_HMP_STOOL_CLASS_HMP_SAMP_134_KO_76.tab
+data/semi_uscg_72_kegg_min_2148_max_2313.lst
+data/uscg_76_kegg_min_2313.lst
+examples/Gene_vs_Sample_HMP_STOOL.tab
+examples/MUSiCC_Output.tab
+lic/COPYING.txt
