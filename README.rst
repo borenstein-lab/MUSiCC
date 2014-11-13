@@ -21,11 +21,15 @@ In order for MUSiCC to run successfully, the following Python modules should be 
 - Scikit-learn >= 0.15.2 (http://scikit-learn.org/stable/)
 - Pandas >= 0.14 (http://pandas.pydata.org/)
 
-To install MUSiCC, simply download the package from http://depts.washington.edu/elbogs/MUSiCC/MUSiCC_Python.zip. This is a zip archive containing the following files/directories:
-* MUSiCC.py: The MUSiCC Python module
-* data/: A directory containing several data files MUSiCC requires to run properly.
-* examples/: A directory containing examples of input and output files.
-* lic/COPYING.txt: A copy of the BSD License. This is required to be distributed with the MUSiCC package.
+To install MUSiCC, simply download the package from https://github.com/omanor/MUSiCC/archive/master.zip
+
+This is a zip archive containing the following files/directories:
+
+- MUSiCC.py: The MUSiCC Python module
+- test_MUSiCC.py: A test unit for the MUSiCC module
+- data/: A directory containing several data files MUSiCC requires to run properly.
+- examples/: A directory containing examples of input and output files.
+- lic/COPYING.txt: A copy of the BSD License. This is required to be distributed with the MUSiCC package.
 
 OR, install MUSiCC using the PyPI framework by running:
 `pip install -U numpy scipy scikit-learn pandas` (for dependencies)
