@@ -16,7 +16,7 @@ MUSiCC is available through the following sources:
 - As an online tool at: http://elbo.gs.washington.edu/software_musicc.html.
 
 =======
-LICENSE
+License
 =======
 
 MUSiCC is distributed under a BSD license and can be readily incorporated into custom analysis tools.
