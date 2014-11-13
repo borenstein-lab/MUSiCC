@@ -119,9 +119,7 @@ Usage:
 ------
 
 >>> from MUSiCC import MUSiCC
-
 >>> musicc_args = {'input_file': 'lib/python3.3/site-packages/MUSiCC/examples/simulated_ko_relative_abundance.tab', 'output_file': 'simulated_ko_MUSiCC_Normalized.tab', 'input_format': 'tab', 'output_format': 'tab', 'MUSiCC_inter': True, 'MUSiCC_intra': 'None', 'compute_scores': True, 'verbose': True}
-
 >>> MUSiCC.correct(musicc_args)
 
 Required arguments:
