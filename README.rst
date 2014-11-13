@@ -4,10 +4,22 @@ MUSiCC Documentation
 ====================
 
 MUSiCC is a marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome,
-and is available as an online tool and as a Python module. MUSiCC is developed by the Borenstein group at the University of Washington and is available online at: 
-http://elbo.gs.washington.edu/software_musicc.html.
+developed and maintained by the Borenstein group at the University of Washington.
 
-MUSiCC is a stand-alone Python module that implements the MUSiCC functionality. It is distributed under a BSD license and can be readily incorporated into custom analysis tools.
+============
+Availability
+============
+
+MUSiCC is available through the following sources:
+
+- As a Python module from GitHub or PyPI (see installation instructions below)
+- As an online tool at: http://elbo.gs.washington.edu/software_musicc.html.
+
+=======
+LICENSE
+=======
+
+MUSiCC is distributed under a BSD license and can be readily incorporated into custom analysis tools.
 
 =========================
 Installation Instructions
