@@ -117,9 +117,10 @@ Examples
 ========
 In the Examples directory, the file simulated_ko_relative_abundance.tab contains simulated KO abundance measurements of 20 samples described in the
 MUSiCC manuscript. Using this file as input for MUSiCC results in the following files:
-simulated_ko_MUSiCC_Normalized.tab (only normalization)
-simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab (normalize and correct using the generic model learned from HMP)
-simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab (normalize and correct learning a new model for each sample)
+
+- simulated_ko_MUSiCC_Normalized.tab (only normalization)
+- simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab (normalize and correct using the generic model learned from HMP)
+- simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab (normalize and correct learning a new model for each sample)
 
 The commands used are the following (via command line):
 
