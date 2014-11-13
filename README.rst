@@ -63,14 +63,14 @@ Usage:
 
 > *MUSiCC.py input_file [options]*
 
-**Required arguments:**
------------------------
+Required arguments:
+-------------------
 
 input_file
     Input abundance file to correct
 
-**Optional arguments:**
------------------------
+Optional arguments:
+-------------------
 
 **-h, --help**
     show help message and exit
@@ -104,8 +104,8 @@ MUSiCC can also be used directly inside a python script. Passing variables and f
 creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below. The same options as in the
 command-line interface apply.
 
-**Usage:**
-----------
+Usage:
+------
 
 >> from MUSiCC import MUSiCC
 
