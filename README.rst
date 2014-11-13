@@ -48,9 +48,9 @@ from the same directory where MUSiCC was installed:
 
 This will invoke a series of tests. A correct output should end with:
 
-*Ran 3 tests in X.XXXXs*
+> *Ran 3 tests in X.XXXXs*
 
-*OK*
+> *OK*
 
 ===============================
 MUSiCC API via the command line
