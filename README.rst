@@ -66,7 +66,7 @@ Usage:
 Required arguments:
 -------------------
 
-input_file
+**input_file**
     Input abundance file to correct
 
 Optional arguments:
@@ -78,10 +78,10 @@ Optional arguments:
 **-o OUTPUT_FILE, --out OUTPUT_FILE**
     Output destination for corrected abundance (default: MUSiCC.tab)
 
-**-if {tab,csv,biom}, --input_format {tab,csv,biom}**
+**-if {tab,csv}, --input_format {tab,csv}**
     Option indicating the format of the input file (default: tab)
 
-**-of {tab,csv,biom}, --output_format {tab,csv,biom}**
+**-of {tab,csv}, --output_format {tab,csv}**
     Option indicating the format of the output file (default: tab)
 
 **-n, --normalize**
@@ -101,8 +101,7 @@ Optional arguments:
 MUSiCC API via python script
 ============================
 MUSiCC can also be used directly inside a python script. Passing variables and flags to the MUSiCC script is done by
-creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below. The same options as in the
-command-line interface apply.
+creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below.
 
 Usage:
 ------
@@ -113,6 +112,35 @@ Usage:
 
 >> MUSiCC.correct(musicc_args)
 
+Required arguments:
+-------------------
+
+**input_file**
+    Input abundance file to correct
+
+Optional arguments:
+-------------------
+
+**output_file**
+    Output destination for corrected abundance (default: MUSiCC.tab)
+
+**input_format {'tab','csv'}**
+    Option indicating the format of the input file (default: 'tab')
+
+**output_format {'tab','csv'}**
+    Option indicating the format of the output file (default: 'tab')
+
+**MUSiCC_inter {True, False}**
+    Apply MUSiCC normalization (default: False)
+
+**MUSiCC_intra {'use_generic', 'learn_model', 'None'}**
+    Correct abundance per-sample using MUSiCC (default: 'None')
+
+**compute_scores {True, False}**
+    Calculate model performance on various gene sets (may add to running time) (default: False)
+
+**verbose {True, False}**
+    Increase verbosity of module (default: False)
 
 ========
 Examples
