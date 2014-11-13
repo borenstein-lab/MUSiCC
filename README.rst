@@ -91,7 +91,7 @@ input_file
     Calculate model performance on various gene sets (may add to running time) (default: false)
 
 -v, --verbose
-Increase verbosity of module (default: false)
+    Increase verbosity of module (default: false)
 
 
 ============================
