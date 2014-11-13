@@ -123,9 +123,11 @@ simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab (normalize and correct 
 
 The commands used are the following (via command line):
 
-`python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -perf -v -o examples/simulated_ko_MUSiCC_Normalized.tab`
-`python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab`
-`python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab`
+> *python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -perf -v -o examples/simulated_ko_MUSiCC_Normalized.tab*
+
+> *python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab*
+
+> *python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab*
 
 ==================
 Citing Information
