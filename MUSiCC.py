@@ -1,6 +1,6 @@
 
 """
-This function
+MUSiCC
 """
 
 # to comply with both Py2 and Py3

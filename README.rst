@@ -3,7 +3,7 @@
 MUSiCC Documentation
 ====================
 
-MUSiCC is a toolkit for correcting biases in gene abundance measurements derived from shotgun metagenomic sequencing, 
+MUSiCC is a marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome,
 and is available as an online tool and as a Python module. MUSiCC is developed by the Borenstein group at the University of Washington and is available online at: 
 http://elbo.gs.washington.edu/software_musicc.html.
 
@@ -45,9 +45,9 @@ Ran 3 tests in 12.972s
 OK
 
 
-==========================
-Interface via command line
-==========================
+===============================
+MUSiCC API via the command line
+===============================
 The MUSiCC module handles all calculations internally.
 MUSiCC offers an interface to the MUSiCC functionality via the command line.
 **usage:**
@@ -80,11 +80,12 @@ optional arguments:
   -v, --verbose         Increase verbosity of module (default: false)
 
 
-===========================
-Interface via python script
-===========================
+============================
+MUSiCC API via python script
+============================
 MUSiCC can also be used directly inside a python script. Passing variables and flags to the MUSiCC script is done by
-creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below.
+creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below. The same options as in the
+command-line interface apply.
 **usage:**
 
 >> from MUSiCC import MUSiCC
@@ -115,5 +116,5 @@ Citing Information
 
 If you use the MUSiCC software, please cite the following paper:
 
-MUSiCC: Towards an accurate estimation of average genomic copy-numbers in the human microbiome.
+MUSiCC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
 **Ohad Manor and Elhanan Borenstein.** *Submitted*
