@@ -58,18 +58,18 @@ MUSiCC API via the command line
 The MUSiCC module handles all calculations internally.
 MUSiCC offers an interface to the MUSiCC functionality via the command line.
 
-**USAGE:**
+**Usage:**
 ----------
 
 > *MUSiCC.py input_file [options]*
 
-**REQUIRED ARGUMENTS:**
+**Required arguments:**
 -----------------------
 
 input_file
     Input abundance file to correct
 
-**OPTIONAL ARGUMENTS:**
+**Optional arguments:**
 -----------------------
 
 **-h, --help**
@@ -104,7 +104,7 @@ MUSiCC can also be used directly inside a python script. Passing variables and f
 creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below. The same options as in the
 command-line interface apply.
 
-**USAGE:**
+**Usage:**
 ----------
 
 >> from MUSiCC import MUSiCC
