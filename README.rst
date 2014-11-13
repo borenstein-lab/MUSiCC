@@ -62,11 +62,13 @@ MUSiCC offers an interface to the MUSiCC functionality via the command line.
 
 > MUSiCC.py input_file [-h] [-o OUTPUT_FILE] [-if {tab,csv,biom}] [-of {tab,csv,biom}] [-n] [-c {use_generic,learn_model}] [-perf] [-v]
 
-positional arguments:
-  input_file            Input abundance file to correct
+**required arguments:**
+
+input_file
+    Input abundance file to correct
 
 optional arguments:
-  -h, --help            show this help message and exit
+  -h, --help            show help message and exit
   -o OUTPUT_FILE, --out OUTPUT_FILE Output destination for corrected abundance (default: MUSiCC.tab)
   -if {tab,csv,biom}, --input_format {tab,csv,biom}
                         Option indicating the format of the input file
