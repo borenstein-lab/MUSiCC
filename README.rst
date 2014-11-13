@@ -33,8 +33,8 @@ This is a zip archive containing the following files/directories:
 
 OR, install MUSiCC using the PyPI framework by running:
 
-`pip install -U numpy scipy scikit-learn pandas` (for dependencies)
-`pip install -U MUSiCC`
+|`pip install -U numpy scipy scikit-learn pandas` (for dependencies)
+|`pip install -U MUSiCC`
 
 ============================
 Testing the software package
@@ -128,5 +128,5 @@ MUSiCC: A marker genes based framework for metagenomic normalization and accurat
 ==================
 Question forum
 ==================
-For MUSiCC announcements and questions, including notification of new releases, you can visit the MUSiCC users list at:
+For MUSiCC announcements and questions, including notification of new releases, you can visit the MUSiCC users forum at:
 https://groups.google.com/forum/#!forum/musicc-users
