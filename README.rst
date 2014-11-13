@@ -57,9 +57,10 @@ MUSiCC API via the command line
 ===============================
 The MUSiCC module handles all calculations internally.
 MUSiCC offers an interface to the MUSiCC functionality via the command line.
-**usage:**
 
-MUSiCC.py [-h] [-o OUTPUT_FILE] [-if {tab,csv,biom}]
+**Usage:**
+
+> MUSiCC.py [-h] [-o OUTPUT_FILE] [-if {tab,csv,biom}]
                  [-of {tab,csv,biom}] [-n] [-c {use_generic,learn_model}]
                  [-perf] [-v]
                  input_file
