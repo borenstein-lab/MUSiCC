@@ -69,7 +69,7 @@ input_file
 
 **optional arguments:**
 
--h, --help
+**-h, --help**
     show help message and exit
 
 -o OUTPUT_FILE, --out OUTPUT_FILE
