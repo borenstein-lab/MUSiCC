@@ -67,6 +67,7 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
+
   -o OUTPUT_FILE, --out OUTPUT_FILE
                         Output destination for corrected abundance (default:
                         MUSiCC.tab)
