@@ -77,17 +77,21 @@ input_file
 
 -if {tab,csv,biom}, --input_format {tab,csv,biom}
     Option indicating the format of the input file (default: tab)
-    
-  -of {tab,csv,biom}, --output_format {tab,csv,biom}
-                        Option indicating the format of the output file
-                        (default: tab)
-  -n, --normalize       Apply MUSiCC normalization (default: false)
-  -c {use_generic, learn_model}, --correct {use_generic,learn_model}
-                        Correct abundance per-sample using MUSiCC (default:
-                        false)
-  -perf, --performance  Calculate model performance on various gene sets (may
-                        add to running time) (default: false)
-  -v, --verbose         Increase verbosity of module (default: false)
+
+-of {tab,csv,biom}, --output_format {tab,csv,biom}
+    Option indicating the format of the output file (default: tab)
+
+-n, --normalize
+    Apply MUSiCC normalization (default: false)
+
+-c {use_generic, learn_model}, --correct {use_generic,learn_model}
+    Correct abundance per-sample using MUSiCC (default: false)
+
+-perf, --performance
+    Calculate model performance on various gene sets (may add to running time) (default: false)
+
+-v, --verbose
+Increase verbosity of module (default: false)
 
 
 ============================
