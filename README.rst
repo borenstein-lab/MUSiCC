@@ -45,9 +45,8 @@ This is a zip archive containing the following files/directories:
 
 OR, install MUSiCC using the PyPI framework by running:
 
-``*pip install -U numpy scipy scikit-learn pandas* (for dependencies)``
-
-``*pip install -U MUSiCC*``
+``pip install -U numpy scipy scikit-learn pandas`` (for dependencies)
+``pip install -U MUSiCC``
 
 ============================
 Testing the software package
