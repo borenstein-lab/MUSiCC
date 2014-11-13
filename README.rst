@@ -60,10 +60,7 @@ MUSiCC offers an interface to the MUSiCC functionality via the command line.
 
 **Usage:**
 
-> MUSiCC.py [-h] [-o OUTPUT_FILE] [-if {tab,csv,biom}]
-                 [-of {tab,csv,biom}] [-n] [-c {use_generic,learn_model}]
-                 [-perf] [-v]
-                 input_file
+> MUSiCC.py input_file [-h] [-o OUTPUT_FILE] [-if {tab,csv,biom}] [-of {tab,csv,biom}] [-n] [-c {use_generic,learn_model}] [-perf] [-v]
 
 positional arguments:
   input_file            Input abundance file to correct
