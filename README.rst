@@ -58,8 +58,8 @@ MUSiCC API via the command line
 The MUSiCC module handles all calculations internally.
 MUSiCC offers an interface to the MUSiCC functionality via the command line.
 
-**Usage:**
-----------
+Usage:
+------
 
 > *MUSiCC.py input_file [options]*
 
