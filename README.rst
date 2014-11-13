@@ -67,10 +67,7 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-
-  -o OUTPUT_FILE, --out OUTPUT_FILE
-                        Output destination for corrected abundance (default:
-                        MUSiCC.tab)
+  -o OUTPUT_FILE, --out OUTPUT_FILE Output destination for corrected abundance (default: MUSiCC.tab)
   -if {tab,csv,biom}, --input_format {tab,csv,biom}
                         Option indicating the format of the input file
                         (default: tab)
