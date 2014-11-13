@@ -103,7 +103,9 @@ MUSiCC API via python script
 MUSiCC can also be used directly inside a python script. Passing variables and flags to the MUSiCC script is done by
 creating a dictionary and passing it to the function *MUSiCC.correct*, as shown below. The same options as in the
 command-line interface apply.
-**usage:**
+
+**USAGE:**
+----------
 
 >> from MUSiCC import MUSiCC
 
