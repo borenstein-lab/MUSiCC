@@ -32,6 +32,7 @@ This is a zip archive containing the following files/directories:
 - lic/COPYING.txt: A copy of the BSD License. This is required to be distributed with the MUSiCC package.
 
 OR, install MUSiCC using the PyPI framework by running:
+
 `pip install -U numpy scipy scikit-learn pandas` (for dependencies)
 `pip install -U MUSiCC`
 
@@ -46,9 +47,9 @@ from the same directory where MUSiCC was installed:
 
 This will invoke a series of tests. A correct output should end with:
 
-Ran 3 tests in 12.972s
-OK
+Ran 3 tests in X.XXXXs
 
+OK
 
 ===============================
 MUSiCC API via the command line
@@ -123,3 +124,9 @@ If you use the MUSiCC software, please cite the following paper:
 
 MUSiCC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
 **Ohad Manor and Elhanan Borenstein.** *Submitted*
+
+==================
+Question forum
+==================
+For MUSiCC announcements and questions, including notification of new releases, you can visit the MUSiCC users list at:
+https://groups.google.com/forum/#!forum/musicc-users
