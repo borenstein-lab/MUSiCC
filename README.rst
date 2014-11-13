@@ -44,13 +44,13 @@ Testing the software package
 After downloading and installing the software, we recommend testing it by running the following command
 from the same directory where MUSiCC was installed:
 
-`python test_MUSiCC.py`
+> *python test_MUSiCC.py*
 
 This will invoke a series of tests. A correct output should end with:
 
-Ran 3 tests in X.XXXXs
+*Ran 3 tests in X.XXXXs*
 
-OK
+*OK*
 
 ===============================
 MUSiCC API via the command line
