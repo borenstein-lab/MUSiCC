@@ -15,10 +15,11 @@ Installation Instructions
 Prerequisites for installing:
 
 In order for MUSiCC to run successfully, the following Python modules should be pre-installed on your system:
-* Numpy >= 1.6.1 (http://www.numpy.org/)
-* Scipy >= 0.9 (http://www.scipy.org/)
-* Scikit-learn >= 0.15.2 (http://scikit-learn.org/stable/)
-* Pandas >= 0.14 (http://pandas.pydata.org/)
+
+- Numpy >= 1.6.1 (http://www.numpy.org/)
+- Scipy >= 0.9 (http://www.scipy.org/)
+- Scikit-learn >= 0.15.2 (http://scikit-learn.org/stable/)
+- Pandas >= 0.14 (http://pandas.pydata.org/)
 
 To install MUSiCC, simply download the package from http://depts.washington.edu/elbogs/MUSiCC/MUSiCC_Python.zip. This is a zip archive containing the following files/directories:
 * MUSiCC.py: The MUSiCC Python module
