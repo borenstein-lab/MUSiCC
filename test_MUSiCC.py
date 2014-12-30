@@ -23,8 +23,17 @@ class MUSiCCTestCase(unittest.TestCase):
                        'MUSiCC_intra': 'None', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
         MUSiCC.correct(musicc_args)
-        # assert that the result is equal to the example
-        self.assertTrue(filecmp.cmp('examples/test1.tab', 'examples/simulated_ko_MUSiCC_Normalized.tab'))
+        # assert that the result is equal to the example (up to small difference due to OS/Other)
+        example = pd.read_table('examples/simulated_ko_MUSiCC_Normalized.tab', index_col=0)
+        output = pd.read_table('examples/test1.tab', index_col=0)
+        example_vals = example.values
+        output_vals = output.values
+        self.assertTrue(example_vals.shape[0] == output_vals.shape[0])
+        self.assertTrue(example_vals.shape[1] == output_vals.shape[1])
+        for i in range(example_vals.shape[0]):
+            for j in range(example_vals.shape[1]):
+                self.assertTrue(abs(example_vals[i, j] - output_vals[i, j]) < 1)
+
         os.remove('examples/test1.tab')
 
     def test_is_output_correct_for_normalization_correction_use_generic(self):
@@ -35,8 +44,17 @@ class MUSiCCTestCase(unittest.TestCase):
                        'MUSiCC_intra': 'use_generic', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
         MUSiCC.correct(musicc_args)
-        # assert that the result is equal to the example
-        self.assertTrue(filecmp.cmp('examples/test2.tab', 'examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab'))
+        # assert that the result is equal to the example (up to small difference due to OS/Other)
+        example = pd.read_table('examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab', index_col=0)
+        output = pd.read_table('examples/test2.tab', index_col=0)
+        example_vals = example.values
+        output_vals = output.values
+        self.assertTrue(example_vals.shape[0] == output_vals.shape[0])
+        self.assertTrue(example_vals.shape[1] == output_vals.shape[1])
+        for i in range(example_vals.shape[0]):
+            for j in range(example_vals.shape[1]):
+                self.assertTrue(abs(example_vals[i, j] - output_vals[i, j]) < 1)
+
         os.remove('examples/test2.tab')
 
     def test_is_output_correct_for_normalization_correction_learn_model(self):
@@ -47,15 +65,13 @@ class MUSiCCTestCase(unittest.TestCase):
                        'MUSiCC_intra': 'learn_model', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
         MUSiCC.correct(musicc_args)
-        # assert that the result is equal to the example
+        # assert that the result is equal to the example (up to small difference due to de novo learning)
         example = pd.read_table('examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab', index_col=0)
         output = pd.read_table('examples/test3.tab', index_col=0)
         example_vals = example.values
         output_vals = output.values
         self.assertTrue(example_vals.shape[0] == output_vals.shape[0])
         self.assertTrue(example_vals.shape[1] == output_vals.shape[1])
-        # since this is de novo learning, results may vary when testing, so
-        # check that output values are not very far from the expected example values
         for i in range(example_vals.shape[0]):
             for j in range(example_vals.shape[1]):
                 self.assertTrue(abs(example_vals[i, j] - output_vals[i, j]) < 1)
