@@ -26,16 +26,16 @@
       <file leaf-file-name="MUSiCC.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MUSiCC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="8160">
+            <state line="21" column="52" selection-start="401" selection-end="401" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="8160">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_MUSiCC.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test_MUSiCC.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_MUSiCC.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="70" selection-start="4014" selection-end="4014" vertical-scroll-proportion="1.0480669" vertical-offset="136" max-vertical-offset="1462">
+            <state line="66" column="19" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="663">
+            <state line="6" column="22" selection-start="89" selection-end="92" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="README.rst" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="155" column="8" selection-start="4829" selection-end="4829" vertical-scroll-proportion="0.0" vertical-offset="1929" max-vertical-offset="3264">
+            <state line="86" column="14" selection-start="2548" selection-end="2548" vertical-scroll-proportion="-9.153846" vertical-offset="1224" max-vertical-offset="3264">
               <folding />
             </state>
           </provider>
@@ -62,16 +62,16 @@
       <file leaf-file-name="AUTHORS.rst" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="74" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+            <state line="5" column="74" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HISTORY.rst" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="HISTORY.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HISTORY.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+            <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.12434692" vertical-offset="0" max-vertical-offset="957">
               <folding />
             </state>
           </provider>
@@ -80,7 +80,7 @@
       <file leaf-file-name="MANIFEST.in" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MANIFEST.in">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="221">
+            <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -101,11 +101,11 @@
         <option value="$PROJECT_DIR$/HISTORY.rst" />
         <option value="$PROJECT_DIR$/CITE.rst" />
         <option value="$PROJECT_DIR$/../setup.py" />
-        <option value="$PROJECT_DIR$/MUSiCC.py" />
         <option value="$PROJECT_DIR$/AUTHORS.rst" />
         <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/test_MUSiCC.py" />
+        <option value="$PROJECT_DIR$/README.rst" />
+        <option value="$PROJECT_DIR$/MUSiCC.py" />
       </list>
     </option>
   </component>
@@ -607,23 +607,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+    <entry file="file://$PROJECT_DIR$/test_MUSiCC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="66" column="19" selection-start="3490" selection-end="3490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="22" selection-start="89" selection-end="92" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="663">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MUSiCC.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="8160">
+        <state line="21" column="52" selection-start="401" selection-end="401" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="8160">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HISTORY.rst">
+    <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state line="86" column="14" selection-start="2548" selection-end="2548" vertical-scroll-proportion="-9.153846" vertical-offset="1224" max-vertical-offset="3264">
           <folding />
         </state>
       </provider>
@@ -635,23 +642,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="1" column="9" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
+    <entry file="file://$PROJECT_DIR$/HISTORY.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="8" selection-start="4829" selection-end="4829" vertical-scroll-proportion="0.0" vertical-offset="1929" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_MUSiCC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="70" selection-start="4014" selection-end="4014" vertical-scroll-proportion="1.0480669" vertical-offset="136" max-vertical-offset="1462">
+        <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.12434692" vertical-offset="0" max-vertical-offset="957">
           <folding />
         </state>
       </provider>

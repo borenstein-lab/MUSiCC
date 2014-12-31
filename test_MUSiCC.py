@@ -22,7 +22,7 @@ class MUSiCCTestCase(unittest.TestCase):
                        'output_file': 'examples/test1.tab', 'input_format': 'tab', 'output_format': 'tab', 'MUSiCC_inter': True,
                        'MUSiCC_intra': 'None', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
-        MUSiCC.correct(musicc_args)
+        MUSiCC.main(musicc_args)
         # assert that the result is equal to the example (up to small difference due to OS/Other)
         example = pd.read_table('examples/simulated_ko_MUSiCC_Normalized.tab', index_col=0)
         output = pd.read_table('examples/test1.tab', index_col=0)
@@ -43,7 +43,7 @@ class MUSiCCTestCase(unittest.TestCase):
                        'output_file': 'examples/test2.tab', 'input_format': 'tab', 'output_format': 'tab', 'MUSiCC_inter': True,
                        'MUSiCC_intra': 'use_generic', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
-        MUSiCC.correct(musicc_args)
+        MUSiCC.main(musicc_args)
         # assert that the result is equal to the example (up to small difference due to OS/Other)
         example = pd.read_table('examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab', index_col=0)
         output = pd.read_table('examples/test2.tab', index_col=0)
@@ -64,7 +64,7 @@ class MUSiCCTestCase(unittest.TestCase):
                        'output_file': 'examples/test3.tab', 'input_format': 'tab', 'output_format': 'tab', 'MUSiCC_inter': True,
                        'MUSiCC_intra': 'learn_model', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
-        MUSiCC.correct(musicc_args)
+        MUSiCC.main(musicc_args)
         # assert that the result is equal to the example (up to small difference due to de novo learning)
         example = pd.read_table('examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab', index_col=0)
         output = pd.read_table('examples/test3.tab', index_col=0)

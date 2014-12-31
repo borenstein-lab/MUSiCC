@@ -19,7 +19,7 @@ import uuid
 import numpy as np
 from scipy import stats
 import pandas as pd
-from sklearn import cross_validation, linear_model # for the LASSO
+from sklearn import cross_validation, linear_model  # for the LASSO
 from sklearn.utils import ConvergenceWarning
 
 
@@ -80,7 +80,7 @@ def learn_lasso_model(cov_train, res_train):
 # MAIN FUNCTION
 # corrects the given abundance data
 ###################################################################################################################
-def correct(args):
+def main(args):
 
     print("Running MUSiCC...")
 
@@ -467,8 +467,8 @@ if __name__ == "__main__":
 
     given_args = parser.parse_args()
 
-    # run correction
-    correct(vars(given_args))
+    # run normalization and correction
+    main(vars(given_args))
 
 
 
