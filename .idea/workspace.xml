@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="setup.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="89" selection-end="92" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="663">
+            <state line="30" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.54779804" vertical-offset="0" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -68,10 +68,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HISTORY.rst" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="HISTORY.rst" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HISTORY.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.12434692" vertical-offset="0" max-vertical-offset="957">
+            <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -102,10 +102,10 @@
         <option value="$PROJECT_DIR$/CITE.rst" />
         <option value="$PROJECT_DIR$/../setup.py" />
         <option value="$PROJECT_DIR$/AUTHORS.rst" />
-        <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/test_MUSiCC.py" />
         <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/MUSiCC.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
       </list>
     </option>
   </component>
@@ -614,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="89" selection-end="92" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="663">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MUSiCC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="52" selection-start="401" selection-end="401" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="8160">
@@ -651,7 +644,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HISTORY.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.12434692" vertical-offset="0" max-vertical-offset="957">
+        <state line="7" column="17" selection-start="93" selection-end="93" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.54779804" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>
