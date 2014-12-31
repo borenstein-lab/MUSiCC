@@ -23,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MUSiCC.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MUSiCC.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="52" selection-start="401" selection-end="401" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="8160">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_MUSiCC.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_MUSiCC.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -41,10 +32,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MUSiCC.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MUSiCC.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="456" column="20" selection-start="23728" selection-end="23744" vertical-scroll-proportion="0.45220193" vertical-offset="7331" max-vertical-offset="8551">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.54779804" vertical-offset="0" max-vertical-offset="931">
+            <state line="28" column="82" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="680">
               <folding />
             </state>
           </provider>
@@ -614,13 +614,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MUSiCC.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="52" selection-start="401" selection-end="401" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="8160">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="14" selection-start="2548" selection-end="2548" vertical-scroll-proportion="-9.153846" vertical-offset="1224" max-vertical-offset="3264">
@@ -651,7 +644,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.54779804" vertical-offset="0" max-vertical-offset="931">
+        <state line="28" column="82" selection-start="1142" selection-end="1142" vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="680">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MUSiCC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="456" column="20" selection-start="23728" selection-end="23744" vertical-scroll-proportion="0.45220193" vertical-offset="7331" max-vertical-offset="8551">
           <folding />
         </state>
       </provider>
