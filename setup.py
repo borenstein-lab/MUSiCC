@@ -1,5 +1,6 @@
 
 import os
+from glob import glob
 
 try:
     from setuptools import setup
@@ -27,6 +28,7 @@ setup(name='MUSiCC',
       install_requires=['NumPy >= 1.6.1', 'SciPy >= 0.9', 'scikit-learn >= 0.15.2', 'pandas >= 0.14'],
       provides=['MUSiCC'],
       entry_points = {"console_scripts": ['MUSiCC = MUSiCC.MUSiCC:run_from_console']},
+      scripts=glob('scripts/*.py'),
       )
 
 
