@@ -1,6 +1,5 @@
 
 import os
-from glob import glob
 
 try:
     from setuptools import setup
@@ -23,11 +22,11 @@ setup(name='MUSiCC',
       author_email='omanor@gmail.com',
       url='http://elbo.gs.washington.edu/software_musicc.html',
       packages=['musicc'],
-      package_dir={'musicc': '.'},
+      package_dir={'musicc'},
       package_data={'musicc': ['data/*.tab', 'data/*.lst', 'examples/*.tab']},
       install_requires=['NumPy >= 1.6.1', 'SciPy >= 0.9', 'scikit-learn >= 0.15.2', 'pandas >= 0.14'],
       provides=['musicc'],
-      scripts=['musicc.py', 'test_musicc.py'],
+      scripts=['scripts/run_musicc.py', 'tests/test_musicc.py'],
       )
 
 
