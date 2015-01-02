@@ -16,6 +16,7 @@ class MUSiCCTestCase(unittest.TestCase):
 
     def test_is_output_correct_for_normalization_only(self):
         """Does MUSiCC produce the correct output for normalization of the example case?"""
+        print(os.path.dirname(musicc.__file__))
         # define the arguments needed by MUSiCC
         musicc_args = {'input_file': 'examples/simulated_ko_relative_abundance.tab',
                        'output_file': 'examples/test1.tab', 'input_format': 'tab', 'output_format': 'tab', 'musicc_inter': True,
