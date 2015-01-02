@@ -1,8 +1,7 @@
-#!/usr/bin/env python
 
-from musicc import run_from_console
+import musicc
 
 if __name__ == "__main__":
-    run_from_console()
+    musicc.run_from_console()
 
 
