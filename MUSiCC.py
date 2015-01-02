@@ -88,8 +88,8 @@ def main(args):
     if args['verbose']:
         print("Input: " + args['input_file'])
         print("Output: " + args['output_file'])
-        print("Normalize: " + str(args['MUSiCC_inter']))
-        print("Correct: " + args['MUSiCC_intra'])
+        print("Normalize: " + str(args['musicc_inter']))
+        print("Correct: " + args['musicc_intra'])
         print("Compute scores: " + str(args['compute_scores']))
 
     # set some initial settings for the script
@@ -204,9 +204,10 @@ def main(args):
     ################################################################
     # if option selected, correct the abundance per sample by a model based on USiCG
     ################################################################
-    if args['MUSiCC_intra'] != 'None':
+    if args['musicc_intra'] != 'None':
+        print("Performing MUSiCC Correction...")
 
-        if args['MUSiCC_intra'] == 'use_generic': # use generic model
+        if args['musicc_intra'] == 'use_generic': # use generic model
             # load the learned weights from file
             model__feature_names = []
             model__sample_names = []
@@ -311,7 +312,7 @@ def main(args):
             all_samples_correlog_clusters_scores = np.zeros((num_of_samples, number_of_correlog_clusters))
             all_samples_correlog_clusters_scores[:] = np.NaN
 
-        if args['MUSiCC_intra'] == 'learn_model':
+        if args['musicc_intra'] == 'learn_model':
             print("Learning sample-specific models")
         else:
             print("Correcting samples using generic model")
@@ -327,7 +328,7 @@ def main(args):
             final_covariates = np.nan_to_num(stats.zscore(covariates_uscg))
 
             # compute prediction for current sample
-            if args['MUSiCC_intra'] == 'learn_model':
+            if args['musicc_intra'] == 'learn_model':
                 with warnings.catch_warnings():
                     warnings.simplefilter('ignore', ConvergenceWarning)
                     final_model, all_samples_mean_scores[s] = learn_lasso_model(final_covariates, final_response)
@@ -357,7 +358,7 @@ def main(args):
                 sample_abundance__semi_uscg = np.array(abun[semi_uscg__abundance_ind_of_intersection, s])
                 covariates_semi_uscg = np.nan_to_num(stats.zscore(features_vals[semi_uscg__features_ind_of_intersection, :]))
                 response_semi_uscg = (sample_abundance__semi_uscg / np.mean(sample_abundance__semi_uscg)) - 1.0
-                if args['MUSiCC_intra'] == 'learn_model':
+                if args['musicc_intra'] == 'learn_model':
                     all_samples_semi_uscg_scores[s] = final_model.score(covariates_semi_uscg, response_semi_uscg)
                 else:
                     predicted_correction_for_semi_uscg = np.dot(covariates_semi_uscg, model__mean_coef) + model__mean_intercept
@@ -369,7 +370,7 @@ def main(args):
                     covariates_clus = np.nan_to_num(stats.zscore(features_vals[corelog_cluster__features_ind_of_intersection[clus], :]))
                     response_clus = (abun[corelog_cluster__abundance_ind_of_intersection[clus], s] / np.mean(abun[corelog_cluster__abundance_ind_of_intersection[clus], s])) - 1
                     if len(response_clus) >= 5 and not np.max(np.isnan(response_clus)):
-                        if args['MUSiCC_intra'] == 'learn_model':
+                        if args['musicc_intra'] == 'learn_model':
                             all_samples_correlog_clusters_scores[s, clus] = final_model.score(covariates_clus, response_clus)
                         else:
                             predicted_correction_for_correlog_clusters = np.dot(covariates_clus, model__mean_coef) + model__mean_intercept
@@ -391,8 +392,8 @@ def main(args):
     ################################################################
     # if option selected, normalize the samples by the median USiCG
     ################################################################
-    if args['MUSiCC_inter']:
-        print("Performing MUSiCC Normalization")
+    if args['musicc_inter']:
+        print("Performing MUSiCC Normalization...")
         # compute median USCGs per sample
         median_uscg_per_sample = np.median(abun[uscg_ind,:], axis=0)
         if args['verbose']:
@@ -457,20 +458,20 @@ def main(args):
 def run_from_console():
 
     # get options from user
-    parser = argparse.ArgumentParser(description='MUSiCC: Metagenomic Universal Single-Copy Correction')
-    parser.add_argument('input_file', help='Input abundance file to correct')
-    parser.add_argument('-o', '--out', dest='output_file', help='Output destination for corrected abundance (default: MUSiCC.tab)', default='MUSiCC.tab')
-    parser.add_argument('-if', '--input_format', dest='input_format', choices=['tab', 'csv', 'biom'], help='Option indicating the format of the input file (default: tab)', default='tab')
-    parser.add_argument('-of', '--output_format', dest='output_format', choices=['tab', 'csv', 'biom'], help='Option indicating the format of the output file (default: tab)', default='tab')
-    parser.add_argument('-n', '--normalize', dest='MUSiCC_inter', help='Apply MUSiCC normalization (default: false)', action='store_true')
-    parser.add_argument('-c', '--correct', dest='MUSiCC_intra', choices=['use_generic', 'learn_model'], help='Correct abundance per-sample using MUSiCC (default: false)', default='None')
-    parser.add_argument('-perf', '--performance', dest='compute_scores', help='Calculate model performance on various gene sets (may add to running time) (default: false)', action='store_true')
-    parser.add_argument('-v', '--verbose', dest='verbose', help='Increase verbosity of module (default: false)', action='store_true')
+    console_parser = argparse.ArgumentParser(description='MUSiCC: Metagenomic Universal Single-Copy Correction')
+    console_parser.add_argument('input_file', help='Input abundance file to correct')
+    console_parser.add_argument('-o', '--out', dest='output_file', help='Output destination for corrected abundance (default: MUSiCC.tab)', default='MUSiCC.tab')
+    console_parser.add_argument('-if', '--input_format', dest='input_format', choices=['tab', 'csv', 'biom'], help='Option indicating the format of the input file (default: tab)', default='tab')
+    console_parser.add_argument('-of', '--output_format', dest='output_format', choices=['tab', 'csv', 'biom'], help='Option indicating the format of the output file (default: tab)', default='tab')
+    console_parser.add_argument('-n', '--normalize', dest='musicc_inter', help='Apply MUSiCC normalization (default: false)', action='store_true')
+    console_parser.add_argument('-c', '--correct', dest='musicc_intra', choices=['use_generic', 'learn_model'], help='Correct abundance per-sample using MUSiCC (default: false)', default='None')
+    console_parser.add_argument('-perf', '--performance', dest='compute_scores', help='Calculate model performance on various gene sets (may add to running time) (default: false)', action='store_true')
+    console_parser.add_argument('-v', '--verbose', dest='verbose', help='Increase verbosity of module (default: false)', action='store_true')
 
-    given_args = parser.parse_args()
+    console_given_args = console_parser.parse_args()
 
     # run normalization and correction
-    main(vars(given_args))
+    main(vars(console_given_args))
 
 ################################################################################################################
 # COMMAND LINE RUNNING:
@@ -483,8 +484,8 @@ if __name__ == "__main__":
     parser.add_argument('-o', '--out', dest='output_file', help='Output destination for corrected abundance (default: MUSiCC.tab)', default='MUSiCC.tab')
     parser.add_argument('-if', '--input_format', dest='input_format', choices=['tab', 'csv', 'biom'], help='Option indicating the format of the input file (default: tab)', default='tab')
     parser.add_argument('-of', '--output_format', dest='output_format', choices=['tab', 'csv', 'biom'], help='Option indicating the format of the output file (default: tab)', default='tab')
-    parser.add_argument('-n', '--normalize', dest='MUSiCC_inter', help='Apply MUSiCC normalization (default: false)', action='store_true')
-    parser.add_argument('-c', '--correct', dest='MUSiCC_intra', choices=['use_generic', 'learn_model'], help='Correct abundance per-sample using MUSiCC (default: false)', default='None')
+    parser.add_argument('-n', '--normalize', dest='musicc_inter', help='Apply MUSiCC normalization (default: false)', action='store_true')
+    parser.add_argument('-c', '--correct', dest='musicc_intra', choices=['use_generic', 'learn_model'], help='Correct abundance per-sample using MUSiCC (default: false)', default='None')
     parser.add_argument('-perf', '--performance', dest='compute_scores', help='Calculate model performance on various gene sets (may add to running time) (default: false)', action='store_true')
     parser.add_argument('-v', '--verbose', dest='verbose', help='Increase verbosity of module (default: false)', action='store_true')
 
