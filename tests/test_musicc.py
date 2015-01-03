@@ -8,6 +8,7 @@ from __future__ import absolute_import, division, print_function
 import unittest
 import os
 import pandas as pd
+import musicc
 from musicc.core import correct_and_normalize
 
 
