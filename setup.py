@@ -24,7 +24,6 @@ setup(name='MUSiCC',
       packages=['musicc'],
       package_data={'musicc': ['data/*.tab', 'data/*.lst', 'examples/*.tab']},
       install_requires=['NumPy >= 1.6.1', 'SciPy >= 0.9', 'scikit-learn >= 0.15.2', 'pandas >= 0.14'],
-      provides=['musicc'],
       scripts=['scripts/run_musicc.py', 'tests/test_musicc.py'],
       )
 
