@@ -44,7 +44,7 @@
       <file leaf-file-name="test_musicc.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/test_musicc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.21316615" vertical-offset="0" max-vertical-offset="1632">
+            <state line="20" column="42" selection-start="575" selection-end="575" vertical-scroll-proportion="0.3552769" vertical-offset="0" max-vertical-offset="1649">
               <folding>
                 <element signature="e#79#143#0" expanded="true" />
               </folding>
@@ -679,7 +679,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_musicc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.21316615" vertical-offset="0" max-vertical-offset="1632">
+        <state line="20" column="42" selection-start="575" selection-end="575" vertical-scroll-proportion="0.3552769" vertical-offset="0" max-vertical-offset="1649">
           <folding>
             <element signature="e#79#143#0" expanded="true" />
           </folding>
