@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="setup.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="998" selection-end="998" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="646">
+            <state line="11" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.2008593" vertical-offset="0" max-vertical-offset="931">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="run_musicc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/run_musicc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+            <state line="20" column="0" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="test_musicc.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_musicc.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
+            <state line="11" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
               <folding>
                 <element signature="e#79#143#0" expanded="true" />
               </folding>
@@ -52,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="musicc.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/musicc/musicc.py">
+      <file leaf-file-name="core.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/musicc/core.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="474" column="0" selection-start="25429" selection-end="25429" vertical-scroll-proportion="1.1481482" vertical-offset="7004" max-vertical-offset="8568">
+            <state line="451" column="0" selection-start="23523" selection-end="23523" vertical-scroll-proportion="0.0" vertical-offset="6812" max-vertical-offset="7769">
               <folding />
             </state>
           </provider>
@@ -115,14 +115,15 @@
         <option value="$PROJECT_DIR$/AUTHORS.rst" />
         <option value="$PROJECT_DIR$/test_MUSiCC.py" />
         <option value="$PROJECT_DIR$/README.rst" />
-        <option value="$PROJECT_DIR$/tests/test_musicc.py" />
         <option value="$PROJECT_DIR$/MUSiCC.py" />
         <option value="$PROJECT_DIR$/test_musicc.py" />
         <option value="$PROJECT_DIR$/musicc.py" />
         <option value="$PROJECT_DIR$/run_musicc.py" />
-        <option value="$PROJECT_DIR$/scripts/run_musicc.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/musicc/musicc.py" />
+        <option value="$PROJECT_DIR$/tests/test_musicc.py" />
+        <option value="$PROJECT_DIR$/musicc/core.py" />
+        <option value="$PROJECT_DIR$/scripts/run_musicc.py" />
       </list>
     </option>
   </component>
@@ -655,32 +656,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="998" selection-end="998" vertical-scroll-proportion="-17.0" vertical-offset="0" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/run_musicc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="1551" selection-end="1551" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+        <state line="20" column="0" selection-start="1594" selection-end="1594" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_musicc.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1530">
+        <state line="11" column="0" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1615">
           <folding>
             <element signature="e#79#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicc/musicc.py">
+    <entry file="file://$PROJECT_DIR$/musicc/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="474" column="0" selection-start="25429" selection-end="25429" vertical-scroll-proportion="1.1481482" vertical-offset="7004" max-vertical-offset="8568">
+        <state line="451" column="0" selection-start="23523" selection-end="23523" vertical-scroll-proportion="0.0" vertical-offset="6812" max-vertical-offset="7769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="27" selection-start="220" selection-end="220" vertical-scroll-proportion="0.2008593" vertical-offset="0" max-vertical-offset="931">
           <folding />
         </state>
       </provider>

@@ -1,5 +1,5 @@
 
-import musicc
+from musicc.core import correct_and_normalize
 
 if __name__ == "__main__":
     # get options from user
@@ -16,6 +16,6 @@ if __name__ == "__main__":
     given_args = parser.parse_args()
 
     # run normalization and correction
-    musicc.main(vars(given_args))
+    correct_and_normalize(vars(given_args))
 
 

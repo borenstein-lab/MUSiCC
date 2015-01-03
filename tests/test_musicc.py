@@ -6,9 +6,9 @@ This is the testing unit for MUSiCC
 from __future__ import absolute_import, division, print_function
 
 import unittest
-import musicc
 import os
 import pandas as pd
+from musicc.core import correct_and_normalize
 
 
 class MUSiCCTestCase(unittest.TestCase):
@@ -23,7 +23,7 @@ class MUSiCCTestCase(unittest.TestCase):
                        'input_format': 'tab', 'output_format': 'tab', 'musicc_inter': True,
                        'musicc_intra': 'None', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
-        musicc.main(musicc_args)
+        correct_and_normalize(musicc_args)
         # assert that the result is equal to the example (up to small difference due to OS/Other)
         example = pd.read_table(MUSiCCTestCase.path_to_data + '/examples/simulated_ko_MUSiCC_Normalized.tab', index_col=0)
         output = pd.read_table(MUSiCCTestCase.path_to_data + '/examples/test1.tab', index_col=0)
@@ -45,7 +45,7 @@ class MUSiCCTestCase(unittest.TestCase):
                        'input_format': 'tab', 'output_format': 'tab', 'musicc_inter': True,
                        'musicc_intra': 'use_generic', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
-        musicc.main(musicc_args)
+        correct_and_normalize(musicc_args)
         # assert that the result is equal to the example (up to small difference due to OS/Other)
         example = pd.read_table(MUSiCCTestCase.path_to_data + '/examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab', index_col=0)
         output = pd.read_table(MUSiCCTestCase.path_to_data + '/examples/test2.tab', index_col=0)
@@ -67,7 +67,7 @@ class MUSiCCTestCase(unittest.TestCase):
                        'input_format': 'tab', 'output_format': 'tab', 'musicc_inter': True,
                        'musicc_intra': 'learn_model', 'compute_scores': True, 'verbose': False}
         # run the MUSiCC correction
-        musicc.main(musicc_args)
+        correct_and_normalize(musicc_args)
         # assert that the result is equal to the example (up to small difference due to de novo learning)
         example = pd.read_table(MUSiCCTestCase.path_to_data + '/examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab', index_col=0)
         output = pd.read_table(MUSiCCTestCase.path_to_data + '/examples/test3.tab', index_col=0)
