@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="setup.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="setup.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="32" selection-start="848" selection-end="848" vertical-scroll-proportion="0.43823844" vertical-offset="0" max-vertical-offset="931">
+            <state line="24" column="32" selection-start="848" selection-end="848" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rst" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="README.rst" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="75" selection-start="5453" selection-end="5509" vertical-scroll-proportion="-108.53846" vertical-offset="0" max-vertical-offset="3264">
+            <state line="39" column="50" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.5185185" vertical-offset="187" max-vertical-offset="3332">
               <folding />
             </state>
           </provider>
@@ -113,7 +113,6 @@
         <option value="$PROJECT_DIR$/../setup.py" />
         <option value="$PROJECT_DIR$/AUTHORS.rst" />
         <option value="$PROJECT_DIR$/test_MUSiCC.py" />
-        <option value="$PROJECT_DIR$/README.rst" />
         <option value="$PROJECT_DIR$/MUSiCC.py" />
         <option value="$PROJECT_DIR$/test_musicc.py" />
         <option value="$PROJECT_DIR$/musicc.py" />
@@ -124,6 +123,7 @@
         <option value="$PROJECT_DIR$/tests/test_musicc.py" />
         <option value="$PROJECT_DIR$/setup.py" />
         <option value="$PROJECT_DIR$/MANIFEST.in" />
+        <option value="$PROJECT_DIR$/README.rst" />
       </list>
     </option>
   </component>
@@ -649,20 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="74" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="75" selection-start="5453" selection-end="5509" vertical-scroll-proportion="-108.53846" vertical-offset="0" max-vertical-offset="3264">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/run_musicc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
@@ -681,7 +667,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="32" selection-start="848" selection-end="848" vertical-scroll-proportion="0.43823844" vertical-offset="0" max-vertical-offset="931">
+        <state line="24" column="32" selection-start="848" selection-end="848" vertical-scroll-proportion="-15.692307" vertical-offset="0" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AUTHORS.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="74" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="50" selection-start="1258" selection-end="1258" vertical-scroll-proportion="0.5185185" vertical-offset="187" max-vertical-offset="3332">
           <folding />
         </state>
       </provider>

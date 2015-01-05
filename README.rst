@@ -33,6 +33,10 @@ In order for MUSiCC to run successfully, the following Python modules should be 
 - Scikit-learn >= 0.15.2 (http://scikit-learn.org/stable/)
 - Pandas >= 0.14 (http://pandas.pydata.org/)
 
+If you have *pip* installed, you can install these packages by running the following command:
+
+``pip install -U numpy scipy scikit-learn pandas``
+
 To install MUSiCC, simply download the package from https://github.com/omanor/MUSiCC/archive/master.zip
 
 This is a zip archive containing the following files/directories:
@@ -177,7 +181,7 @@ Citing Information
 If you use the MUSiCC software, please cite the following paper:
 
 MUSiCC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
-**Ohad Manor and Elhanan Borenstein.** *Submitted*
+**Ohad Manor and Elhanan Borenstein.** *Genome Biology*
 
 ==================
 Question forum
