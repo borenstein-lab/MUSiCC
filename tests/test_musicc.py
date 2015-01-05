@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 """
 This is the testing unit for MUSiCC

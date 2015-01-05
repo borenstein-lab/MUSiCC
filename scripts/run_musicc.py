@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 
 import argparse
 from musicc.core import correct_and_normalize
