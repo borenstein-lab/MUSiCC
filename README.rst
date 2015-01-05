@@ -24,6 +24,7 @@ MUSiCC is distributed under a BSD license and can be readily incorporated into c
 =========================
 Installation Instructions
 =========================
+
 Prerequisites for installing:
 
 In order for MUSiCC to run successfully, the following Python modules should be pre-installed on your system:
@@ -37,19 +38,23 @@ If you have *pip* installed, you can install these packages by running the follo
 
 ``pip install -U numpy scipy scikit-learn pandas``
 
-To install MUSiCC, simply download the package from https://github.com/omanor/MUSiCC/archive/master.zip
+**Installing MUSiCC:**
 
-This is a zip archive containing the following files/directories:
+To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/0.9.tar.gz
 
-- MUSiCC.py: The MUSiCC Python module
-- test_MUSiCC.py: A test unit for the MUSiCC module
-- data/: A directory containing several data files MUSiCC requires to run properly.
-- examples/: A directory containing examples of input and output files.
-- lic/COPYING.txt: A copy of the BSD License. This is required to be distributed with the MUSiCC package.
+After downloading MUSiCC, you’ll need to unzip the file. If you’ve downloaded the release version, do this with the following command:
 
-OR, install MUSiCC using the PyPI framework by running:
+``tar -xzf MUSiCC-0.9.tar.gz``
 
-``pip install -U numpy scipy scikit-learn pandas`` (for dependencies)
+You’ll then change into the new MUSiCC directory as follows:
+
+``cd MUSiCC-0.9``
+
+and install using the following command:
+
+``python setup.py install``
+
+ALTERNATIVELY, you can install MUSiCC directly from PyPI by running:
 
 ``pip install -U MUSiCC``
 
@@ -57,10 +62,9 @@ OR, install MUSiCC using the PyPI framework by running:
 Testing the software package
 ============================
 
-After downloading and installing the software, we recommend testing it by running the following command
-from the same directory where MUSiCC was installed:
+After downloading and installing the software, we recommend testing it by running the following command:
 
-``python test_MUSiCC.py``
+``test_MUSiCC.py``
 
 This will invoke a series of tests. A correct output should end with:
 
@@ -72,12 +76,12 @@ This will invoke a series of tests. A correct output should end with:
 MUSiCC API via the command line
 ===============================
 The MUSiCC module handles all calculations internally.
-MUSiCC offers an interface to the MUSiCC functionality via the command line.
+MUSiCC offers an interface to the MUSiCC functionality via the command line and the run_MUSiCC script.
 
 Usage:
 ------
 
-``MUSiCC.py input_file [options]``
+``run_MUSiCC.py input_file [options]``
 
 Required arguments:
 -------------------
@@ -117,14 +121,14 @@ Optional arguments:
 MUSiCC API via python script
 ============================
 MUSiCC can also be used directly inside a python script. Passing variables and flags to the MUSiCC script is done by
-creating a dictionary and passing it to the function *MUSiCC.main*, as shown below.
+creating a dictionary and passing it to the function *correct_and_normalize*, as shown below.
 
 Usage:
 ------
 
->>> from MUSiCC import MUSiCC
->>> musicc_args = {'input_file': 'lib/python3.3/site-packages/MUSiCC/examples/simulated_ko_relative_abundance.tab', 'output_file': 'simulated_ko_MUSiCC_Normalized.tab', 'input_format': 'tab', 'output_format': 'tab', 'MUSiCC_inter': True, 'MUSiCC_intra': 'None', 'compute_scores': True, 'verbose': True}
->>> MUSiCC.main(musicc_args)
+>>> from musicc.core import correct_and_normalize
+>>> musicc_args = {'input_file': 'test_musicc/lib/python3.3/site-packages/musicc/examples/simulated_ko_relative_abundance.tab', 'output_file': 'MUSiCC.tab','input_format': 'tab', 'output_format': 'tab', 'musicc_inter': True, 'musicc_intra': 'learn_model','compute_scores': True, 'verbose': True}
+>>> correct_and_normalize(musicc_args)
 
 Required arguments:
 -------------------
@@ -144,10 +148,10 @@ Optional arguments:
 **output_format {'tab','csv'}**
     Option indicating the format of the output file (default: 'tab')
 
-**MUSiCC_inter {True, False}**
+**musicc_inter {True, False}**
     Apply MUSiCC normalization (default: False)
 
-**MUSiCC_intra {'use_generic', 'learn_model', 'None'}**
+**musicc_intra {'use_generic', 'learn_model', 'None'}**
     Correct abundance per-sample using MUSiCC (default: 'None')
 
 **compute_scores {True, False}**
@@ -159,7 +163,7 @@ Optional arguments:
 ========
 Examples
 ========
-In the *examples* directory, the file *simulated_ko_relative_abundance.tab* contains simulated KO abundance measurements of 20 samples described in the
+In the *musicc/examples* directory, the file *simulated_ko_relative_abundance.tab* contains simulated KO abundance measurements of 20 samples described in the
 MUSiCC manuscript. Using this file as input for MUSiCC results in the following files:
 
 - simulated_ko_MUSiCC_Normalized.tab (only normalization)
@@ -168,11 +172,11 @@ MUSiCC manuscript. Using this file as input for MUSiCC results in the following 
 
 The commands used were the following (via command line):
 
-``python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -perf -v -o examples/simulated_ko_MUSiCC_Normalized.tab``
+``run_MUSiCC.py musicc/examples/simulated_ko_relative_abundance.tab -n -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized.tab``
 
-``python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab``
+``run_MUSiCC.py musicc/examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab``
 
-``python MUSiCC.py examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab``
+``run_MUSiCC.py musicc/examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab``
 
 ==================
 Citing Information
