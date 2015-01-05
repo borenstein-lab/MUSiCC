@@ -1,7 +1,0 @@
-include *.py
-include *.rst
-recursive-include lic *.txt
-recursive-include examples *.tab
-recursive-include data *.tab *.lst
-
-
