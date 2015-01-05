@@ -1,7 +1,13 @@
 include *.py
 include *.rst
 include LICENSE
-recursive-include examples *.tab
-recursive-include data *.tab *.lst
 
+graft musicc
+graft scripts
+graft tests
+
+global-exclude *.pyc
+global-exclude *.pyo
+global-exclude .git
+global-exclude *~
 
