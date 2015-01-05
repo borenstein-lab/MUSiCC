@@ -40,15 +40,15 @@ If you have *pip* installed, you can install these packages by running the follo
 
 **Installing MUSiCC:**
 
-To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/0.9.tar.gz
+To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.tar.gz
 
 After downloading MUSiCC, you’ll need to unzip the file. If you’ve downloaded the release version, do this with the following command:
 
-``tar -xzf MUSiCC-0.9.tar.gz``
+``tar -xzf MUSiCC-1.0.tar.gz``
 
 You’ll then change into the new MUSiCC directory as follows:
 
-``cd MUSiCC-0.9``
+``cd MUSiCC-1.0``
 
 and install using the following command:
 
@@ -64,7 +64,7 @@ Testing the software package
 
 After downloading and installing the software, we recommend testing it by running the following command:
 
-``test_MUSiCC.py``
+``test_musicc.py``
 
 This will invoke a series of tests. A correct output should end with:
 
@@ -76,12 +76,12 @@ This will invoke a series of tests. A correct output should end with:
 MUSiCC API via the command line
 ===============================
 The MUSiCC module handles all calculations internally.
-MUSiCC offers an interface to the MUSiCC functionality via the command line and the run_MUSiCC script.
+MUSiCC offers an interface to the MUSiCC functionality via the command line and the run_musicc script.
 
 Usage:
 ------
 
-``run_MUSiCC.py input_file [options]``
+``run_musicc.py input_file [options]``
 
 Required arguments:
 -------------------
@@ -172,11 +172,11 @@ MUSiCC manuscript. Using this file as input for MUSiCC results in the following 
 
 The commands used were the following (via command line):
 
-``run_MUSiCC.py musicc/examples/simulated_ko_relative_abundance.tab -n -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized.tab``
+``run_musicc.py musicc/examples/simulated_ko_relative_abundance.tab -n -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized.tab``
 
-``run_MUSiCC.py musicc/examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab``
+``run_musicc.py musicc/examples/simulated_ko_relative_abundance.tab -n -c use_generic -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab``
 
-``run_MUSiCC.py musicc/examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab``
+``run_musicc.py musicc/examples/simulated_ko_relative_abundance.tab -n -c learn_model -perf -v -o musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab``
 
 ==================
 Citing Information
