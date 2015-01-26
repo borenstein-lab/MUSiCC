@@ -193,5 +193,4 @@ MUSiCC: A marker genes based framework for metagenomic normalization and accurat
 ==================
 Question forum
 ==================
-For MUSiCC announcements and questions, including notification of new releases, you can visit the MUSiCC users forum at:
-https://groups.google.com/forum/#!forum/musicc-users
+For MUSiCC announcements and questions, including notification of new releases, you can visit the `MUSiCC users forum <https://groups.google.com/forum/#!forum/musicc-users>`_.
