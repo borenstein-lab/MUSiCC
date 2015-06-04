@@ -140,50 +140,61 @@ def correct_and_normalize(args):
     ########################################################
     # import the data file, KO vs. Samples
     ########################################################
-    print("Loading data...")
+    print("Loading data using pandas module...")
 
     assert os.path.isfile(args['input_file']), "abundance data input file is missing"
+
     if args['input_format'] == 'biom':  # input in biom format
         print("converting from biom format...")
         temporary_name = base64.urlsafe_b64encode(uuid.uuid4().bytes).replace('=', '')
         os.system("biom convert -i " + args['input_file'] + "-o " + temporary_name + " -b")
         print("Done.")
-        ins = open(temporary_name, "r")
-        delimiter = "\t"
-    elif args['input_format'] == 'csv':  # csv format
-        ins = open(args['input_file'], "r")
-        delimiter = ","
-    else:   # tab format
-        ins = open(args['input_file'], "r")
-        delimiter = "\t"
 
-    # read file
-    abun = []
-    genes = []
-    row_counter = 0
-    for line in ins:
-        line_arr = line.strip().split(delimiter)
-        if len(line_arr[0]) == 0 or line_arr[0][0] == '#':
-            continue
-        if row_counter == 0:
-            samples = line_arr[1:]
-        else:
-            genes.append(line_arr[0])
-            abun.append(line_arr[1:])
-            if not len(line_arr[1:]) == len(samples):
-                print("Error: number of values for gene " + str(line_arr[0]) + " (" + str(len(line_arr)) + ")"
-                      " does not match number of samples " + "(" + str(len(samples)) + ")"
-                      ", possibly because of missing row header for samples (top left header)")
-                exit()
-        row_counter += 1
-    ins.close()
+        ko_abun_data = pd.read_table(temporary_name, index_col=0, dtype={0: str})
+
+        #1.0 version: ins = open(temporary_name, "r")
+        #1.0 version: delimiter = "\t"
+    elif args['input_format'] == 'csv':  # csv format
+        ko_abun_data = pd.read_table(args['input_file'], index_col=0, dtype={0: str}, sep=',')
+        #1.0 version: ins = open(args['input_file'], "r")
+        #1.0 version: delimiter = ","
+
+    else:   # tab format
+        ko_abun_data = pd.read_table(args['input_file'], index_col=0, dtype={0: str})
+
+        #1.0 version: ins = open(args['input_file'], "r")
+        #1.0 version: delimiter = "\t"
+
+    genes = ko_abun_data.index.values
+    samples = ko_abun_data.columns.values
+    abun = ko_abun_data.values
+
+    # 1.0 version:
+    #abun = []
+    #genes = []
+    #row_counter = 0
+    #for line in ins:
+    #    line_arr = line.strip().split(delimiter)
+    #    if len(line_arr[0]) == 0 or line_arr[0][0] == '#':
+    #        continue
+    #    if row_counter == 0:
+    #        samples = line_arr[1:]
+    #    else:
+    #        genes.append(line_arr[0])
+    #        abun.append(line_arr[1:])
+    #        if not len(line_arr[1:]) == len(samples):
+    #            print("Error: number of values for gene " + str(line_arr[0]) + " (" + str(len(line_arr)) + ")"
+    #                  " does not match number of samples " + "(" + str(len(samples)) + ")"
+    #                  ", possibly because of missing row header for samples (top left header)")
+    #            exit()
+    #    row_counter += 1
+    #ins.close()
+    #genes = np.array(genes)
+    #abun = np.array(abun, dtype=np.float64)
+    #samples = np.array(samples)
 
     if args['input_format'] == 'biom':
         os.system("rm " + temporary_name)
-
-    genes = np.array(genes)
-    abun = np.array(abun, dtype=np.float64)
-    samples = np.array(samples)
 
     # now sort by genes
     genes_sort_ind = np.array(sorted(range(len(genes)), key=lambda k: genes[k]))

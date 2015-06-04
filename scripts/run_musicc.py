@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 
 import argparse
+
+# for testing the new module, remove later!!!!!!
+import sys
+sys.path.append('/net/gs/vol1/home/ohadm/MUSiCC/PyCode/MUSiCC')
+
 from musicc.core import correct_and_normalize
 
 if __name__ == "__main__":

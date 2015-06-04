@@ -7,3 +7,7 @@ HISTORY
 =====================
 * Initial release
 
+=====================
+1.0.1 (3 June, 2015)
+=====================
+* Fixed crashes when running on extremely large files
