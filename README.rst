@@ -40,15 +40,15 @@ If you have *pip* installed, you can install these packages by running the follo
 
 **Installing MUSiCC:**
 
-To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.tar.gz
+To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.2.tar.gz
 
 After downloading MUSiCC, you’ll need to unzip the file. If you’ve downloaded the release version, do this with the following command:
 
-``tar -xzf MUSiCC-1.0.tar.gz``
+``tar -xzf MUSiCC-1.0.2.tar.gz``
 
 You’ll then change into the new MUSiCC directory as follows:
 
-``cd MUSiCC-1.0``
+``cd MUSiCC-1.0.2``
 
 and install using the following command:
 
@@ -190,7 +190,7 @@ If you use the MUSiCC software, please cite the following paper:
 MUSiCC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
 **Ohad Manor and Elhanan Borenstein.** *Genome Biology*
 
-==================
+==============
 Question forum
-==================
+==============
 For MUSiCC announcements and questions, including notification of new releases, you can visit the `MUSiCC users forum <https://groups.google.com/forum/#!forum/musicc-users>`_.
