@@ -2,6 +2,12 @@
 HISTORY
 =======
 
+=====================
+1.0.3 (30 July, 2019)
+=====================
+* Fixed deprecated imports from scikit-learn
+* Added more informative error message when input data contains fewer than 5 USCGs
+
 =========================
 1.0.2 (17 November, 2016)
 =========================
