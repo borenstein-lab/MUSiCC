@@ -48,15 +48,15 @@ Description:
         
         **Installing MUSiCC:**
         
-        To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.tar.gz
+        To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.3.tar.gz
         
         After downloading MUSiCC, you’ll need to unzip the file. If you’ve downloaded the release version, do this with the following command:
         
-        ``tar -xzf MUSiCC-1.0.tar.gz``
+        ``tar -xzf MUSiCC-1.0.3.tar.gz``
         
         You’ll then change into the new MUSiCC directory as follows:
         
-        ``cd MUSiCC-1.0``
+        ``cd MUSiCC-1.0.3``
         
         and install using the following command:
         
@@ -198,28 +198,26 @@ Description:
         MUSiCC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
         **Ohad Manor and Elhanan Borenstein.** *Genome Biology*
         
-        ==================
+        ==============
         Question forum
-        ==================
+        ==============
         For MUSiCC announcements and questions, including notification of new releases, you can visit the `MUSiCC users forum <https://groups.google.com/forum/#!forum/musicc-users>`_.
         
         
         =======
         HISTORY
         =======
-
-
-        =====================
-		1.0.3 (30 July, 2019)
-		=====================
-		* Fixed deprecated imports from scikit-learn
-		* Added more informative error message when input data contains fewer than 5 USCGs
+        
+        ======================
+        1.0.3 (4 August, 2019)
+        ======================
+        * Fixed deprecated imports from scikit-learn
+        * Added more informative error message when input data contains fewer than 5 USCGs
         
         =========================
         1.0.2 (17 November, 2016)
         =========================
-        * Replaced scipy.stats.nanmedian with numpy.nanmedian since
-        scipy.stats.nanmedian was deprecated in scipy 0.15
+        * Replaced scipy.stats.nanmedian with numpy.nanmedian since scipy.stats.nanmedian was deprecated in scipy 0.15
         
         ====================
         1.0.1 (3 June, 2015)

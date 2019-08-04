@@ -29,10 +29,10 @@ Prerequisites for installing:
 
 In order for MUSiCC to run successfully, the following Python modules should be pre-installed on your system:
 
-- Numpy >= 1.6.1 (http://www.numpy.org/)
-- Scipy >= 0.9 (http://www.scipy.org/)
-- Scikit-learn >= 0.15.2 (http://scikit-learn.org/stable/)
-- Pandas >= 0.14 (http://pandas.pydata.org/)
+- Numpy >= 1.17.0 (http://www.numpy.org/)
+- Scipy >= 1.3.0 (http://www.scipy.org/)
+- Scikit-learn >= 0.21.3 (http://scikit-learn.org/stable/)
+- Pandas >= 0.25.0 (http://pandas.pydata.org/)
 
 If you have *pip* installed, you can install these packages by running the following command:
 
@@ -40,15 +40,15 @@ If you have *pip* installed, you can install these packages by running the follo
 
 **Installing MUSiCC:**
 
-To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.2.tar.gz
+To install MUSiCC, download the package from https://github.com/omanor/MUSiCC/archive/1.0.3.tar.gz
 
 After downloading MUSiCC, you’ll need to unzip the file. If you’ve downloaded the release version, do this with the following command:
 
-``tar -xzf MUSiCC-1.0.2.tar.gz``
+``tar -xzf MUSiCC-1.0.3.tar.gz``
 
 You’ll then change into the new MUSiCC directory as follows:
 
-``cd MUSiCC-1.0.2``
+``cd MUSiCC-1.0.3``
 
 and install using the following command:
 
