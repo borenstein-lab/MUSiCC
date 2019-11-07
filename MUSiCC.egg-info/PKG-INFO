@@ -1,6 +1,6 @@
 Metadata-Version: 1.1
 Name: MUSiCC
-Version: 1.0.3
+Version: 1.0.4
 Summary: MUSICC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
 Home-page: http://elbo.gs.washington.edu/software_musicc.html
 Author: Ohad Manor
@@ -207,6 +207,11 @@ Description:
         =======
         HISTORY
         =======
+        
+        ========================
+        1.0.4 (7 November, 2019)
+        ========================
+        * Fixed indexing bug when reporting learned model performance
         
         ======================
         1.0.3 (4 August, 2019)

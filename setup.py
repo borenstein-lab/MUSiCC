@@ -13,7 +13,7 @@ def read(*paths):
         return f.read()
 
 setup(name='MUSiCC',
-      version='1.0.3',
+      version='1.0.4',
       classifiers=['License :: OSI Approved :: BSD License'],
       license=['BSD'],
       description='MUSICC: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.',

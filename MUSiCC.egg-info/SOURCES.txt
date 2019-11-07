@@ -21,4 +21,6 @@ musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_learn_model.tab
 musicc/examples/simulated_ko_MUSiCC_Normalized_Corrected_use_generic.tab
 musicc/examples/simulated_ko_relative_abundance.tab
 scripts/run_musicc.py
+scripts/test_norm.tab
 tests/test_musicc.py
+tests/test_table.tab

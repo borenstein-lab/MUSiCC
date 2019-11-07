@@ -399,8 +399,8 @@ def correct_and_normalize(args):
         # if option selected, aggregate scores from all samples
         if args['compute_scores'] and args['verbose']:
             print("Model performance on various gene sets:")
-            print("Median R^2 across samples for all USCG:" + str(np.nanmedian(all_samples_mean_scores)[0]))
-            print("Median R^2 across samples for all semi-USCG:" + str(np.nanmedian(all_samples_semi_uscg_scores)[0]))
+            print("Median R^2 across samples for all USCG:" + str(np.nanmedian(all_samples_mean_scores)))
+            print("Median R^2 across samples for all semi-USCG:" + str(np.nanmedian(all_samples_semi_uscg_scores)))
             print("Number_of_correlog_clusters:" + str(number_of_correlog_clusters))
             print("Median R^2 across samples for all correlog clusters:" + str(np.nanmedian(np.nanmedian(all_samples_correlog_clusters_scores))))
 

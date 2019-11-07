@@ -2,6 +2,11 @@
 HISTORY
 =======
 
+========================
+1.0.4 (7 November, 2019)
+========================
+* Fixed indexing bug when reporting learned model performance
+
 ======================
 1.0.3 (4 August, 2019)
 ======================
